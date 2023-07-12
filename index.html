@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADDRESS BOOK</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="bg">
+      <div class="container">
+        <header>
+          <div class="icon">
+            <p>
+              <i class="fa-solid fa-address-book"></i>
+            </p>
+            <h1>AddressBook</h1>
+          </div>
+        </header>
+        <div class="btn-div">
+          <button class="add-btn">+ Add address</button>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Address</th>
+              <th>By Name</th>
+              <th>Nickname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody class="cell">
+            <!-- Append the table row <tr> into the <tbody> with javascript  -->
+
+            <!-- And Append the table data <td> into the table row <tr> with javascript  -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- This is the invinsible form part -->
+
+    <form action="" class="bg-form">
+      <div class="form-center">
+        <section class="form-container">
+          <div class="form-heading">
+            <h2>Add Address</h2>
+            <button id="cancel-form">
+              <i class="fa-regular fa-circle-xmark"></i>
+            </button>
+          </div>
+          <div class="input-content">
+            <div class="error"></div>
+            <label for="nickName">How should your email be addressed? </label>
+            <input
+              type="text"
+              placeholder="Nickname"
+              id="nickName"
+              class="lg"
+              name="nickName"
+            />
+            <div id="content">
+              <div>
+                <div class="space">
+                  <label for="firstName">First Name </label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    placeholder="Jim"
+                    name="firstName"
+                  />
+                </div>
+
+                <div class="space">
+                  <label for="email">Email </label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="E.g@gmail.com"
+                    name="email"
+                  />
+                </div>
+
+                <div class="space">
+                  <label for="homeAddress">Street address </label>
+                  <input
+                    type="text"
+                    id="homeAddress"
+                    placeholder="Foundation"
+                    name="homeAddress"
+                  />
+                </div>
+              </div>
+              <div>
+                <div class="space">
+                  <label for="lastName">Last Name </label>
+                  <input
+                    type="text"
+                    id="lastName"
+                    placeholder="Oluwaseyi"
+                    name="lastName"
+                  />
+                </div>
+
+                <div class="space">
+                  <label for="city">City </label>
+                  <input
+                    type="text"
+                    id="city"
+                    name="city"
+                    placeholder="Lagos"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-btn">
+            <button id="saveBtn">Save</button>
+          </div>
+        </section>
+      </div>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>

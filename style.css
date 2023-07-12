@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgba(128, 128, 128, 0.094);
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  padding: 20px 5px;
+}
+.icon > p {
+  font-size: 23px;
+  color: orange;
+  padding: 3px 6px;
+}
+
+.bg {
+  background: #fff;
+  padding: 50px;
+  margin: 0 auto;
+  max-width: 1200px;
+  border-radius: 5px;
+}
+.btn-div > button {
+  height: 40px;
+  width: 100px;
+  background: orange;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin: 25px 0;
+}
+
+.table {
+  width: 100%;
+  text-align: left;
+}
+
+.bold{
+
+  font-weight:bold;
+  font-size: 14px;
+
+}
+
+.table thead tr th {
+  border-bottom: 1px solid #e3e4f1;
+}
+
+tbody tr td {
+  padding: 8px 0;
+
+}
+
+/* form part */
+.bg-form{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:rgba(0, 0, 0, 0.5);
+  display: none;
+
+}
+.form-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background: #fff;
+  width: 390px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px grey;
+
+}
+
+.form-heading {
+  background: orange;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.form-heading > button {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.input-content {
+  padding: 10px;
+}
+ 
+
+.error{
+  color: red;
+
+}
+
+.lg {
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+  font-size: 20px;
+}
+input {
+  height: 28px;
+  outline: none;
+  padding: 5px;
+}
+#content {
+  display: flex;
+  gap: 10px;
+}
+
+.space {
+  margin-top: 15px;
+}
+.form-btn > button {
+  height: 40px;
+  width: 100px;
+  background: orange;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin: 5px 0 10px 10px;
+}
+button{
+  cursor: pointer;
+}
